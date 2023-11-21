@@ -1,0 +1,29 @@
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+border: 1px solid black;
+}
+body{
+    background-color: #7FFFD3
+}
+.output{
+    margin: 0 auto;
+    height: calc(100% / 10);
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    text-align: center;
+    font-size: 30px;
+    height: 80px;
+    width: calc(100% / 10);
+    background-color: #7FFFD3;
+}
+.clicked{
+    background-color: darkblue;
+}
