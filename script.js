@@ -12,12 +12,9 @@ function newSquare(){
 }
 for (let i = 1; i <= 100; i++){
     const element = newSquare();
-    element.append(randomNumber(1, 100));
+    element.append(i);
     outputElement.appendChild(element);
     element.addEventListener('click', function(){
      element.classList.toggle('clicked');})
 }
 
-function randomNumber(minNumber, maxNumber){
-    return Math.floor( Math.random() *(maxNumber - minNumber + 1) + minNumber);
-}
